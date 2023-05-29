@@ -1,4 +1,4 @@
-Attribute VB_Name = "NewMacros"
+Attribute VB_Name = "NewMacros1"
 Sub Links()
 Attribute Links.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.Macro1"
 '
@@ -67,7 +67,7 @@ Attribute Links.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.Macro1"
      .MatchWholeWord = True
      .MatchCase = False
      .Wrap = wdFindContinue
-     .Execute FindText:="Puertas Placa Madera y Chapa"
+     .Execute FindText:="Puertas Placa Economicas"
     End With
     With ActiveDocument.Bookmarks
         .Add Range:=Selection.Range, Name:="PPlacaMYC"
@@ -95,7 +95,7 @@ Attribute Links.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.Macro1"
      .MatchWholeWord = True
      .MatchCase = False
      .Wrap = wdFindContinue
-     .Execute FindText:="Puertas Aluminio Acanalada y Tubular"
+     .Execute FindText:="Puertas Aluminio Acanalda y Tubular"
     End With
     With ActiveDocument.Bookmarks
         .Add Range:=Selection.Range, Name:="PuertasALYTU"
